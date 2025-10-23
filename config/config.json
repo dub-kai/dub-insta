@@ -6,15 +6,23 @@
     "Password": "ManyElectronics2019",
     "DriveLetter": "Z:"
   },
+    "Paths": {
+    "GrafikDriverPath": "Endkontrolle\\01_kai\\Treiber\\Grafikkarte"
+  },
   "General": {
     "DocsFolder": "docs",
     "ShowReadme": true
   },
-    "api": {
+  "api": {
     "baseUrl": "https://production.manyelectronics.de/serial.php",
     "token": "pM5cSflKxxwyJf36ssQTwV_aK6wyJf36ssdQKF2eJcSfl",
     "user": 35,
-    "function": "get_serial"
+    "function": "get_serial",
+
+    "baseUrl2": "https://control.manyelectronics.de/system.php",
+    "token2": "fwpJSMeswR4eJfM5cSflQ36POk6KxwyJV_adKKF2sQT",
+    "user2": "1",
+    "function2": "get_system_by_serial"
   },
     "validation": {
     "customerNumberRegex": "^\\d+$",

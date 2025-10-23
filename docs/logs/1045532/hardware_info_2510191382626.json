@@ -1,0 +1,20 @@
+﻿{
+    "Timestamp":  "2025-10-23 15:38:40",
+    "Mainboard":  {
+                      "Manufacturer":  "MSI",
+                      "Product":  "Z490 PLUS (MS-7C98)",
+                      "BiosVersion":  "1.0",
+                      "SerialNumber":  "07C9811_L11E707113",
+                      "PartNumber":  null,
+                      "AssetTag":  "Base Board"
+                  },
+    "Windows":  {
+                    "OSsystemName":  "Microsoft Windows 11 Pro",
+                    "Version":  "10.0.26100",
+                    "BuildNumber":  "26100",
+                    "OSArchieName":  "64",
+                    "osArchie":  "64-bit",
+                    "OSName":  "Pro",
+                    "OSNb":  "11"
+                }
+}

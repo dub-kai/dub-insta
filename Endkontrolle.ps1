@@ -13,7 +13,6 @@ if (Test-Path $ModuleDir) {
         Import-Module $_.FullName -Force -ErrorAction SilentlyContinue
     }
 }
-
 New-Header -Text "Dubaro Endkontrolle" -Char "=" -Color Cyan -Width 60
 ##############################
 # System vorbereiten
@@ -22,7 +21,7 @@ Test-NetworkConnection
 Test-CsmAndReboot
 Elevated
 Set-NumLock
-Disable-PowerSaving
+Connect-NetworkShare
 
 # Show-Readme -RootDir $RootDir
 
@@ -31,3 +30,13 @@ Disable-PowerSaving
 ##############################
 
 Get-CustomerDataFromApi
+Set-OEMInformationFromJson
+
+New-Header -Text "Verbaute Grafikkarte" -Char "=" -Color Cyan -Width 60
+
+Invoke-GpuCheck
+
+New-Header -Text "Hardwareinformationen Sammeln" -Char "=" -Color Cyan -Width 60
+
+Get-MainboardInfo
+Save-OrderArticles
