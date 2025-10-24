@@ -1,0 +1,3 @@
+﻿Verbaute CPU: Intel(R) Core(TM) i3-10105F CPU @ 3.70GHz
+Benötigte CPU: SI AMD Ryzen 7 7800X3D Tray AM5 8x4,2GHz 120W 104MB Cache
+Falsche Hardware, bitte kontrollieren

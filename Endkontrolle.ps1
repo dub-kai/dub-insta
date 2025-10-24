@@ -29,14 +29,20 @@ Connect-NetworkShare
 # Interface
 ##############################
 
-Get-CustomerDataFromApi
-Set-OEMInformationFromJson
+#Get-CustomerDataFromApi
+#Set-OEMInformationFromJson
 
-New-Header -Text "Verbaute Grafikkarte" -Char "=" -Color Cyan -Width 60
+#New-Header -Text "Verbaute Grafikkarte" -Char "=" -Color Cyan -Width 60
 
-Invoke-GpuCheck
+#Invoke-GpuCheck
 
-New-Header -Text "Hardwareinformationen Sammeln" -Char "=" -Color Cyan -Width 60
+#New-Header -Text "Hardwareinformationen Sammeln" -Char "=" -Color Cyan -Width 60
 
-Get-MainboardInfo
-Save-OrderArticles
+#Get-MainboardInfo
+#Save-OrderArticles
+
+#New-Header -Text "Systemdaten werden kontrolliert" -Char "=" -Color Cyan -Width 60
+
+#Start-FoilCheck -Silent
+Test-SystemCPU
+Test-SystemMainboard

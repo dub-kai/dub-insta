@@ -1,0 +1,3 @@
+﻿Verbaute Mainboard: MSI International Co., Ltd. Z490 PLUS (MS-7C98) 1.0
+Benötigte Mainboard: MSI PRO B850-S WIFI6E DDR5 AM5 ATX 7E80-002R
+Falsche Hardware, bitte kontrollieren

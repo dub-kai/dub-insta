@@ -30,16 +30,7 @@ function new-Header {
 }
 
 function Show-Readme {
-    <#
-    .SYNOPSIS
-        Zeigt eine README-Datei in der PowerShell-Konsole an, wenn sie nicht älter als 5 Tage ist.
-    .DESCRIPTION
-        Liest und zeigt den Inhalt von $RootDir\docs\readme.txt an.
-        Wenn die Datei älter als 5 Tage (Erstellungsdatum) ist, wird sie nicht angezeigt.
-    .PARAMETER RootDir
-        Das Wurzelverzeichnis, in dem der Ordner "docs" liegt.
-    .EXAMPLE
-        Show-Readme -RootDir $RootDir
+Show-Readme -RootDir $RootDir
     #>
     param(
         [Parameter(Mandatory)]

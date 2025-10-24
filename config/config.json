@@ -6,25 +6,39 @@
     "Password": "ManyElectronics2019",
     "DriveLetter": "Z:"
   },
-    "Paths": {
-    "GrafikDriverPath": "Endkontrolle\\01_kai\\Treiber\\Grafikkarte"
+  "Paths": {
+    "GrafikDriverPath": "Endkontrolle\\01_kai\\Treiber\\Grafikkarte",
+    "PythonPortable": "program/Python/python.exe",
+    "DotNetRoot": "dotnet",
+    "DllDir": "dll/net6.0"
   },
   "General": {
     "DocsFolder": "docs",
-    "ShowReadme": true
+    "ShowReadme": true,
+    "UseAdminElevation": true
+  },
+  "PerformanceTest": {
+    "TestMinutes": 1,
+    "WarmupSeconds": 3,
+    "MeasurementMaxValues": 6,
+    "MeasurementTimeoutSeconds": 120,
+    "TargetPercentLHM": 101,
+    "TargetPercentFallback": 100,
+    "PrintLiveValues": true,
+    "LogEachValue": true,
+    "ShowHeaderInfo": true
   },
   "api": {
     "baseUrl": "https://production.manyelectronics.de/serial.php",
     "token": "pM5cSflKxxwyJf36ssQTwV_aK6wyJf36ssdQKF2eJcSfl",
     "user": 35,
     "function": "get_serial",
-
     "baseUrl2": "https://control.manyelectronics.de/system.php",
     "token2": "fwpJSMeswR4eJfM5cSflQ36POk6KxwyJV_adKKF2sQT",
     "user2": "1",
     "function2": "get_system_by_serial"
   },
-    "validation": {
+  "validation": {
     "customerNumberRegex": "^\\d+$",
     "orderNumberRegex": "^\\d+$",
     "serialNumberRegex": "^[0-9A-Z]{8,}$"

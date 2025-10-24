@@ -1,0 +1,26 @@
+====================================================
+Logdatei: A:\Private\dub-insta\docs\logs\1045532\foilcheck.txt
+CPU: Intel(R) Core(TM) i3-10105F CPU @ 3.70GHz
+Basistakt: 3696 MHz
+Modus: LHM
+====================================================
+CPU-Temp vor Test: N/A
+[TEST] Starte Stresstest auf 8 Kernen fuer 120s ...
+
+--- Warm-up (3s) ---
+14:22:41 - Warm-up: 4176.5 MHz
+14:22:46 - Warm-up: 4176.5 MHz
+14:22:52 - Warm-up: 4176.5 MHz
+
+--- Messung (max. 6 Werte, Timeout 120s) ---
+14:22:57 - Core Clock: 4176.5 MHz
+14:23:02 - Core Clock: 4176.5 MHz
+14:23:08 - Core Clock: 4176.5 MHz
+14:23:13 - Core Clock: 4176.5 MHz
+14:23:19 - Core Clock: 4176.5 MHz
+14:23:24 - Core Clock: 4176.5 MHz
+Durchschnitt: 4176.5 MHz (Soll: 3733.0 MHz) [Modus: LHM]
+✅ 113.0% – Test bestanden (LHM-Modus).
+
+2025-10-24 14:23:25 - TEST ENDE
+====================================================
